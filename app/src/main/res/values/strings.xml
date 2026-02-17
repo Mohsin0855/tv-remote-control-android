@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TV Remote</string>
+    <string name="brand_icon">Brand Icon</string>
+    <string name="navigate">Navigate</string>
+    <string name="remote_variant">Remote:</string>
+    <string name="ir_not_supported_title">IR Not Supported</string>
+    <string name="ir_not_supported_message">Your device does not have an IR blaster. This app requires an IR blaster to function as a remote control.</string>
+    <string name="ok">OK</string>
+    <string name="select_device">Select Your Device</string>
+    <string name="signal_sent">Signal sent!</string>
+    <string name="signal_failed">Failed to send signal</string>
+
+    <!-- Casting -->
+    <string name="cast">Cast</string>
+    <string name="cast_screen">Screen Cast</string>
+    <string name="cast_ready">Ready to Cast</string>
+    <string name="cast_active">🟢 Casting Active</string>
+    <string name="start_casting">Start Casting</string>
+    <string name="stop_casting">Stop Casting</string>
+    <string name="open_in_browser">Open this URL on any device on the same WiFi</string>
+    <string name="copy_url">Copy URL</string>
+    <string name="url_copied">URL copied to clipboard</string>
+    <string name="permission_denied">Screen capture permission denied</string>
+    <string name="how_to_cast">How to Cast</string>
+    <string name="cast_instructions">1. Connect your phone and other device to the same WiFi network\n2. Tap \"Start Casting\" and allow screen capture\n3. Open the URL shown above in any browser\n4. Your screen will be mirrored in real-time</string>
+</resources>
