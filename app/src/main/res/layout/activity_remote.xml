@@ -19,6 +19,97 @@
         app:navigationIconTint="#FFFFFF"
         app:titleTextColor="#FFFFFF" />
 
+    <!-- IR / WiFi Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="12dp"
+        android:background="#0F3460">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remote_mode"
+            android:textColor="#8E8E93"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButtonToggleGroup
+            android:id="@+id/toggleMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:singleSelection="true"
+            app:selectionRequired="true"
+            app:checkedButton="@id/btnIrMode">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnIrMode"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/mode_ir"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                app:strokeColor="#E94560" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnWifiMode"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:text="@string/mode_wifi"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"
+                app:strokeColor="#E94560" />
+
+        </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    </LinearLayout>
+
+    <!-- WiFi Status Bar -->
+    <LinearLayout
+        android:id="@+id/wifiStatusBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:background="#0D2137"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/wifiStatusDot"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:background="@drawable/bg_status_dot" />
+
+        <TextView
+            android:id="@+id/tvWifiStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/wifi_not_connected"
+            android:textColor="#8E8E93"
+            android:textSize="12sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnDiscover"
+            style="@style/Widget.Material3.Button.TonalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="@string/wifi_discover"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#0F3460" />
+
     <!-- Remote Fragment Selector -->
     <LinearLayout
         android:layout_width="match_parent"

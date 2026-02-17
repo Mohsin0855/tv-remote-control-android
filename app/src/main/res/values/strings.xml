@@ -23,4 +23,25 @@
     <string name="permission_denied">Screen capture permission denied</string>
     <string name="how_to_cast">How to Cast</string>
     <string name="cast_instructions">1. Connect your phone and other device to the same WiFi network\n2. Tap \"Start Casting\" and allow screen capture\n3. Open the URL shown above in any browser\n4. Your screen will be mirrored in real-time</string>
+
+    <!-- WiFi Remote -->
+    <string name="remote_mode">Mode:</string>
+    <string name="mode_ir">📡 IR</string>
+    <string name="mode_wifi">📶 WiFi</string>
+    <string name="wifi_not_connected">Not connected</string>
+    <string name="wifi_connected">Connected to %1$s</string>
+    <string name="wifi_discover">Discover TV</string>
+    <string name="wifi_discover_title">Find Your TV</string>
+    <string name="wifi_searching">Searching for %1$s TVs…</string>
+    <string name="wifi_no_devices">No devices found. Try entering the TV IP address manually.</string>
+    <string name="wifi_found_devices">Found %1$d device(s). Tap to connect:</string>
+    <string name="wifi_connecting">Connecting…</string>
+    <string name="wifi_connect_failed">Failed to connect. Check if the TV is on and on the same WiFi.</string>
+    <string name="wifi_enter_ip">TV IP Address</string>
+    <string name="wifi_connect">Connect</string>
+    <string name="wifi_manual_ip">↳ Enter IP address manually</string>
+    <string name="wifi_cancel">Cancel</string>
+    <string name="wifi_command_sent">Command sent via WiFi</string>
+    <string name="wifi_command_failed">WiFi command failed</string>
+    <string name="wifi_connect_first">Connect to a TV first</string>
 </resources>
